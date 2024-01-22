@@ -19,7 +19,7 @@ def calculator():
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
-    print("5.Exit")
+    print("5. Exit")
 
     while True:
         choice = input("Enter choice (1/2/3/4): ")
@@ -36,7 +36,7 @@ def calculator():
             elif choice == "4": 
                 print(divide(num1, num2))
         
-        elif choice == "5.":
+        elif choice == "5":
             break
         else:
             print("Invalid input. Please try again.")
