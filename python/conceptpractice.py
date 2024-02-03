@@ -67,6 +67,10 @@ import math
 square_root=math.sqrt(16)
 print(square_root)
 
+soft_drink=["bubble tea","tea","coffee"]
+print(soft_drink[0])
+print(soft_drink[-1])
+
 # Generate a random integer within a specified range.
 import random
 random_integer = random.randint(1, 10)  # Random integer between 1 and 10
